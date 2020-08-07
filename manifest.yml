@@ -1,0 +1,8 @@
+applications:
+- name: app
+  memoery: 1.5GB
+  disk_quota: 1.5GB
+  random-route: True
+  parameters:
+    memory: 1.5GB
+    buildpack: 'python_buildpack'
